@@ -1,0 +1,72 @@
+﻿body {
+background-color: Wheat;
+} 
+
+h1{
+color: #000000;
+text-align: center;
+font-family:Verdana;
+font-size: 13px;
+}
+
+h2{
+text-align: justify;
+font-family:Californian FB;
+font-size: 17px;
+}
+
+h3{
+text-align: center;
+font-size: 15px;
+}
+
+p{
+color:#000000;
+font-family:Arial;
+text-align:left;
+font-size: 14px;
+}
+
+nav{
+background-color: #2A120A;
+height:auto;
+fonnt-family:verdana;
+font-weight:bold;
+font-size:22px;
+}
+
+nav ul{
+height:auto;
+padding:10px 20px 10px;
+margin:10px;
+}
+
+nav li{
+display:inline;
+padding:10px;
+margin:0px;
+}
+
+nav a{
+text-decoration: initial;
+color:#FFFFFF;
+padding:10px 10px 10px 10px;
+}
+
+nav a:hover{
+color:#FFFFFF;
+background-color: #DF0101;
+}
+
+td{
+font-size:23px;
+}
+
+
+footer{
+background-color:#2A120A;
+color:#FFFFFF;
+font-size: 16px;
+text-align:center;
+padding:8px;
+}

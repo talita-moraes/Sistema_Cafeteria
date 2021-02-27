@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="pt-br''>
+     <head>
+		 <meta charset="utf-8">
+         <title>Cadastro</title>
+         <meta name="description" content=" A vida comeca depois do café ">
+         <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="icon" href="imagens/logo.jpg">
+     </head>
+	 
+  <body >
+		<div id="container" >
+            <header> 
+				<table cellspacing="10" align="justify" >
+					<tr align="left">
+						<td>
+							<img src= "imagens/foto1.png" alt="Marca" height="auto" width="100%">
+							
+						</td>
+							<td align="left">
+						</td>
+						<td>
+							<p ALIGN = "left"><B><FONT SIZE = "6"> Hot Coffee </FONT></b></p>
+							<p ALIGN = "left"><B><FONT SIZE = "2"> A VIDA COMECA DEPOIS DO CAFÉ </FONT></b></p>
+							
+						</td>
+					</tr>
+				 </table>
+
+					<nav>
+						<ul>
+                            <li><a href="index.html"><FONT SIZE = "3">Pagina Inicial</FONT></a></li>
+							<li><a href="sobre.html"><FONT SIZE = "3">Sobre</FONT></a></li>
+                            <li><a href="empresa.html"><FONT SIZE = "3">Quem Somos</FONT></a></li>
+                            <li><a href="cardapio.html"><FONT SIZE = "3">Nossos Sabores</FONT></a></li>
+							<li><a href="login.html"><FONT SIZE = "3">Login</FONT></a></li>
+							<li><a href="contato.html"><FONT SIZE = "3">Contato</FONT></a></li>
+                        </ul>
+                    </nav>   
+            </header>
+			
+				
+			<h1><font size="5">Cadastro </FONT></h1>
+			<h1><I> Preencha o Formulario: </i></h1>
+			
+			<fieldset>
+				<legend><B><FONT SIZE = "4" > Dados Pessoais</FONT></b></legend>
+					<table cellspacing="10">
+						<tr>
+							<p></p>
+							<td>
+								<label for="nome">Nome: </label>
+							</td>
+							<td align="left">
+								<input type ="text" name="nome" size= "66" >
+							</td>
+							
+							<td>
+								<label>Nascimento: </label>
+							</td>
+							<td align="left">
+								<input type="date">
+								
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<label for="rg">RG: </label>
+							</td>
+							<td align="left">
+								
+								<table>
+									<td>
+										<input type="text" name="rg" size="20" maxlength="13">
+									</td>
+									<td>
+										<label for="tipo_usuario"> Tipo Usuário: </label>
+									</td>
+									<td>
+										<select name ="eatadoCivil">
+										<option value = "--"> Selecione uma opção </option>
+										<option value="s">Cliente</option> 
+										<option value="c">Funcionário</option>
+									</td>
+								</table>
+								
+							</td>
+							<td>
+								<label for="estadoCivil">Estado Civil: </label> 
+							</td>	
+							<td>
+								<select name ="eatadoCivil">
+									<option value = "--"> Selecione uma opção </option>
+									<option value="s">Solteiro(a)</option> 
+									<option value="c">Casado(a)</option> 
+									<option value="v">Viuvo(a)</option> 
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<label for="cpf">CPF: </label>
+							</td>
+							<td align="left">
+								<table>
+									<td>
+										<input type="text" name="cpf" size="10" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+									</td>
+									<td>
+										<label for="nacionalidade">Nacionalidade: </label>
+									</td>
+									<td>
+										<span style="padding-left:5px"></span>
+										<input type ="text" name="nacionalidade" size= "17" >
+									</td>
+								</table>
+							
+							</td>
+							<td>
+								<label for="sexo">Sexo:</label>
+							</td>
+							<td align="left">
+								<input type="radio" name="sexo">Fem. <span style="padding-left:10px"></span><input type="radio" name="sexo">Masc.
+							</td>
+						</tr>
+						
+					</table>
+					
+					<br />
+					<legend><B><FONT SIZE = "4" > Endereço</FONT></b></legend>
+					<table cellspacing="10">
+						<tr>
+							<td>
+								<label>Cep:</label>
+							</td>
+							<td align="left">
+								<input  type ="text" name="parte1" size= "6" maxlength="5" >
+								<input  type ="text" name="parte2" size= "1" maxlength="3" >
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<label for="rua">Rua:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="rua" size="32">
+							</td>
+							<td>
+								<label for="cidade">Cidade: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="cidade" size="20">
+							</td>
+							<td>
+								<label for="numero">Numero:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="numero" size="1">
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<label for="bairro">Bairro: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="bairro" size="32">
+							</td>
+							<td>
+								<label for="estado">Estado:  </label>
+							</td>
+								<td align="left">
+    								<select name="estado"> 
+									<option value = "--">Selecione uma opcao</option>
+    								<option value="ac">Acre</option> 
+    								<option value="al">Alagoas</option> 
+    								<option value="am">Amazonas</option> 
+    								<option value="ap">Amapá</option> 
+    								<option value="ba">Bahia</option> 
+    								<option value="ce">Ceará</option> 
+    								<option value="df">Distrito Federal</option> 
+    								<option value="es">Espírito Santo</option> 
+									<option value="go">Goiás</option> 
+    								<option value="ma">Maranhão</option> 
+    								<option value="mt">Mato Grosso</option> 
+    								<option value="ms">Mato Grosso do Sul</option> 
+    								<option value="mg">Minas Gerais</option> 
+    								<option value="pa">Pará</option> 
+    								<option value="pb">Paraíba</option> 
+    								<option value="pr">Paraná</option> 
+    								<option value="pe">Pernambuco</option> 
+    								<option value="pi">Piauí</option> 
+    								<option value="rj">Rio de Janeiro</option> 
+    								<option value="rn">Rio Grande do Norte</option> 
+    								<option value="ro">Rondônia</option> 
+    								<option value="rs">Rio Grande do Sul</option> 
+    								<option value="rr">Roraima</option> 
+    								<option value="sc">Santa Catarina</option> 
+    								<option value="se">Sergipe</option> 
+    								<option value="sp">São Paulo</option> 
+									<option value="to">Tocantins</option> 
+							</td>
+							<td>
+								<label for="complemento">Complemento:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="complemento" size="8">
+							</td>
+						</tr>
+					</table>
+					
+				<br />
+				<legend><B><FONT SIZE = "4" > Contato</FONT></b></legend>
+					<table cellspacing="10">
+						<tr>
+							<td>
+								<label for="email">E-mail: </label>
+							</td>
+							<td>
+								<input typ="text" name="email" size= "32">
+							</td>
+							<td>
+								<label for="telefone">Telefone: </label>
+							</td>
+							<td>
+								<input type="text" name="dd" size= "1" maxlength="3"> <input type="text" name="telefone" size= "10" maxlength="9">
+							</td>
+							<td>
+								<label for="celular">Celular: </label>
+							</td>
+							<td>
+								<input type="text" name="dd" size= "1" maxlength="3"> <input type="text" name="celular" size= "10" maxlength="9">
+							</td>
+						</tr>
+					</table>
+					
+					<br />
+				<legend><B><FONT SIZE = "4" > Login</FONT></b></legend>
+					<table cellspacing="10">
+						<tr>
+							<td>
+								<label for="senha">Senha: </label>
+							</td>
+							<td>
+								<input type="text" name="senha" size= "42">
+							</td>
+							<td>
+								<label for="confirma">Confirmar a Senha: </label>
+							</td>
+							<td>
+								<input type="text" name="confirma" size= "22">
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<label for="imagem">Imagem perfil: </label>
+							</td>
+							<td>
+								<input type ="file" name ="imagem">
+							</td>
+							<td></td>
+							<td> </td>
+						</tr>
+						
+					</table>
+					
+			</fieldset>
+			</div>
+			<p></p>
+			
+			<table cellspacing="10" align = "center">
+				<td>		
+					<form action="cadastro.html" method="get">
+						<input  type="submit" value="Limpar">
+					</form>
+				</td>
+				<td>
+					<form action="usuario.html" method="get">
+						<input  type="submit" value="Confirmar">
+					</form>
+				</td>
+			</table>
+				
+			<hr width="100%" align="center" color = "black">
+
+			</br>
+				<h1><u><a href="index.html"><FONT SIZE = "2" color = "red">Pagina Inicial</font></a><u></h1>
+			</br>
+				
+				<footer>
+					<address> Macaxeira, Recife - PE </address>
+				</footer> 
+     </body>
+
+</html>
